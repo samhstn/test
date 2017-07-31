@@ -4,6 +4,7 @@ const port = process.env.PORT || 4000
 const server = new Hapi.Server();
 server.connection({ port: port });
 
+//random comment
 server.route({
     method: 'GET',
     path: '/',
