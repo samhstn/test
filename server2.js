@@ -1,6 +1,7 @@
 const Hapi = require('hapi');
 const port = process.env.PORT || 4000
 
+// random comment
 const server = new Hapi.Server();
 server.connection({ port: port });
 
